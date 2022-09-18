@@ -493,11 +493,7 @@ button {
   width: var(--h1-font-size);
 }
 
-.skills_bar {
-  height: 5px;
-  border-radius: 0.25rem;
-  background-color: var(--first-color);
-}
+
 
 .skills_list {
   height: 0;
@@ -629,15 +625,15 @@ button {
 
 
 
-.portfolio_container {
+.certifications {
   overflow: initial;
 }
 
-.portfolio_content {
+.certifications {
   padding: 0 2.5rem;
 }
 
-.portfolio_img {
+.certifications {
   width: 256px;
   border-radius: 0.5rem;
   justify-self: center;
