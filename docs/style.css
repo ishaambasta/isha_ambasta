@@ -404,7 +404,7 @@ button {
 
 .hov{
   
-    background-color: rgb(15, 210, 245);
+    background-color: #0fd2f5;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -618,7 +618,7 @@ body {
 }
 
 .flip-box-front {
-  background-color: #bbb;
+  background-color: #0fd2f5;
   color: black;
 }
 
