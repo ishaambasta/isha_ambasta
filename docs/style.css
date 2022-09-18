@@ -621,7 +621,7 @@ button {
 }
 
 .flip-box-back {
-  background-color: dodgerblue;
+  background-color: #64dbad;
   color: white;
   transform: rotateY(180deg);
 }
