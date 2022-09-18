@@ -622,7 +622,7 @@ button {
 
 .flip-box-back {
   background-color: #64dbad;
-  color: white;
+  color: black;
   transform: rotateY(180deg);
 }
 
