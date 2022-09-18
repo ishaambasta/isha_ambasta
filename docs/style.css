@@ -584,6 +584,10 @@ button {
 }
 
 /* PORTFOLIO  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .flip-box {
   background-color: transparent;
   width: 300px;
@@ -623,7 +627,6 @@ button {
   color: white;
   transform: rotateY(180deg);
 }
-
 
 
 
