@@ -416,8 +416,6 @@ button {
   }
   
   .hov:hover {opacity: 0.6}
-
-
   .flex-container {
     display: flex;
     background-color: #f1f1f1;
