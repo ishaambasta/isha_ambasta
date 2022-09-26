@@ -407,18 +407,31 @@ button {
     background-color: #0fd2f5;
     border: none;
     color: white;
-    padding: 16px 32px;
+   
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
     opacity: 1;
     transition: 0.3s;
+    
+    display: flex;
+    width: 100%;
+    
+    padding: 16px 28px;
+   
+    cursor: pointer;
+    
+  }
+  
+  .hov:hover {
+    background-color: #2aede9;
+    color: black;
   }
   
   .hov:hover {opacity: 0.6}
   .flex-container {
     display: flex;
-    background-color: #f1f1f1;
+    
   }
   
   .flex-container > div {
@@ -427,10 +440,14 @@ button {
     width: 100px;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 50px;
+    font-size: 20px;
+    cursor:auto;
   }
-
+  .flex-container:hover {
+    
+    color: black;
+  }
 
 .skills_container {
   row-gap: 0;
@@ -509,6 +526,22 @@ button {
 .skills_open .skills_arrow {
   transform: rotate(-180deg);
 }
+.btn-group {
+    display: flex;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+  }
+  .btn-group:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+
+
 
 /* QUALIFICATION */
 .qualification_tabs {
@@ -584,7 +617,7 @@ button {
 
 .flip-box {
   background-color: transparent;
-  width: 300px;
+  width: 900px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
@@ -625,19 +658,7 @@ button {
 
 
 
-.certifications {
-  overflow: initial;
-}
 
-.certifications {
-  padding: 0 2.5rem;
-}
-
-.certifications {
-  width: 256px;
-  border-radius: 0.5rem;
-  justify-self: center;
-}
 
 .portfolio_title {
   font-size: var(--h3-font-size);
