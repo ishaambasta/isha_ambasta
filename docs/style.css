@@ -638,7 +638,7 @@ button {
 
 .flip-box {
   background-color: transparent;
-  width: 900px;
+  width: 770px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
@@ -671,7 +671,7 @@ button {
 }
 
 .flip-box-back {
-  background-color: #64dbad;
+  background-color: #796afd;
   color: black;
   transform: rotateY(180deg);
 }
