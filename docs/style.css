@@ -217,26 +217,7 @@ button {
     transition: 0.3s;
   }
 }
-/*.nav-item {
-  overflow: hidden;
-  background-color: rgb(103, 241, 241);
-}
-.nav-item {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.nav-item:hover {
-  background-color: rgb(21, 209, 223);
-  color: black;
-}
-.nav-item .active {
-  background-color: #74dbe2;
-  color: rgb(0, 0, 0);
-}*/
+
 
 
 .nav_list {
@@ -288,6 +269,13 @@ button {
 .scroll-header {
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.15);
 }
+
+/*PROFILE*/
+.profile{
+ 
+    border-radius: 15px;
+  }
+
 
 /* HOME */
 .home_container {
